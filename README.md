@@ -14,9 +14,24 @@ Pang Jing Hui | P1845259
 
 
 ## Postman testing screenshots
-### 1. GET (ALL)
+### 1. GET - Retrieve all products
 ![](images/get.png)
 
+### 2. GET - Retrieve product by ID
+![](images/getbyid.png)
 
+### 3. GET - Retrieve product by Category
+![](images/category.png)
 
+### 4. POST - Create product
+![](images/post.png)
+![](images/getafterpost.png)
+
+### 5. PUT - Update product
+![](images/put.png)
+![](images/getafterput.png)
+
+### 6. DELETE - Delete product
+![](images/delete.png)
+![](images/deleted.png)
 
