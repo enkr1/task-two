@@ -24,14 +24,20 @@ Pang Jing Hui | P1845259
 ![](images/category.png)
 
 ### 4. POST - Create product
+#### JSON data: 
 ![](images/post.png)
-![](images/getafterpost.png)
+#### After POST:
+![](images/getallafterpost.png)
 
 ### 5. PUT - Update product
+#### JSON data:
 ![](images/put.png)
+#### After PUT:
 ![](images/getafterput.png)
 
-### 6. DELETE - Delete product
+### 6. DELETE - Delete product by ID
+#### URL Parameter:
 ![](images/delete.png)
+#### After DELETE:
 ![](images/deleted.png)
 
