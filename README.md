@@ -14,7 +14,9 @@ Pang Jing Hui | P1845259
 
 
 ## Postman testing screenshots
-### CRUD
+### 1. GET (ALL)
+![](images/get.png)
+
 
 
 
