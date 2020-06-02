@@ -12,3 +12,8 @@ Pang Jing Hui | P1845259
 | PUT  | api/v3/products/{id:int}  | Update/edit a data. The general syntax is "id:int" where the id must be integer.  |
 | DELETE  | api/v3/products/{id:int}  | Delete/remove a data. Applied same restriction.   |
 
+##Postman testing screenshots
+### CRUD
+
+
+
