@@ -13,7 +13,7 @@ Pang Jing Hui | P1845259
 | 6. | DELETE  | api/v3/products/{id:int}  | Delete/remove a data. Applied same restriction.   |
 
 
-## Postman testing screenshots
+## Postman testing screenshots of CRUD:
 ### 1. GET - Retrieve all products
 ![](images/get.png)
 
@@ -40,4 +40,18 @@ Pang Jing Hui | P1845259
 ![](images/delete.png)
 #### After DELETE:
 ![](images/deleted.png)
+
+
+## Postman testing screenshots of underposting & overposting:
+### Underposting - missing properties:
+#### Without name:
+#### Without price:
+
+### Underposting - Out of range:
+#### Negative input:
+#### Out of range input:
+
+### Overposting - non existing data:
+#### Discount property which does not exist:
+
 
