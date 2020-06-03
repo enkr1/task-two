@@ -45,13 +45,18 @@ Pang Jing Hui | P1845259
 ## Postman testing screenshots of underposting & overposting:
 ### Underposting - missing properties:
 #### Without name:
+![](images/missname.png)
 #### Without price:
+![](images/missprice.png)
 
 ### Underposting - Out of range:
 #### Negative input:
+![](images/neg.png)
 #### Out of range input:
+![](images/oor.png)
 
 ### Overposting - non existing data:
 #### Discount property which does not exist:
+![](images/discount.png)
 
 
