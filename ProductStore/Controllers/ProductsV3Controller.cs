@@ -5,14 +5,14 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using System.ComponentModel.DataAnnotations; // Practical 3
+using System.ComponentModel.DataAnnotations;
 
 
 namespace ProductStore.Controllers
 {
     public class ProductsV3Controller : ApiController
     {
-        // Practical 3
+        // Task 3
         static readonly IProductRepository repository = new ProductRepository();
 
         //Version 3

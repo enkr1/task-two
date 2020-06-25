@@ -17,13 +17,13 @@
 
         <hr />
 
-        <div>
+        <!--<div>
             <h2>Add product</h2>
             <input type="text" id="name" placeholder="product name" required/>
             <input type="text" id="price" placeholder="price" required/>
             <input type="button" value="Add" onclick="add();" />
             <p id="addedproduct"></p>
-        </div>
+        </div>-->
 
         <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
         <script>
@@ -72,7 +72,16 @@
                     .fail(function (jqXHR, textStatus, err) {
                         $('#addedproduct').text('Error: ' + err);
                     });
-            }
+            } 
+
+            $('#prodId').on('keypress', function (event) {
+                var regex = new RegExp("[0-9]{1,5}");
+                var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+                if (!regex.test(key)) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
         </script>
 </body>
 </html>
