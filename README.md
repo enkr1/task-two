@@ -59,4 +59,6 @@ Pang Jing Hui | P1845259
 #### i. Discount property which does not exist:
 ![](images/discount.png)
 
+# References:
+1. https://andrewlock.net/preventing-mass-assignment-or-over-posting-in-asp-net-core/
 
