@@ -24,39 +24,39 @@ Pang Jing Hui | P1845259
 ![](images/category.png)
 
 ### 4. POST - Create product
-#### JSON data: 
+#### i. JSON data: 
 ![](images/post.png)
-#### After POST:
+#### ii. After POST:
 ![](images/getallafterpost.png)
 
 ### 5. PUT - Update product
-#### JSON data:
+#### i. JSON data:
 ![](images/put.png)
-#### After PUT:
+#### ii. After PUT:
 ![](images/getafterput.png)
 
 ### 6. DELETE - Delete product by ID
-#### URL Parameter:
+#### i. URL Parameter:
 ![](images/delete.png)
-#### After DELETE:
+#### ii. After DELETE:
 ![](images/deleted.png)
 
 
 ## Postman testing screenshots of underposting & overposting:
-### Underposting - missing properties:
-#### Without name:
+### 1. Underposting - missing properties:
+#### i. Without name:
 ![](images/missname.png)
-#### Without price:
+#### ii. Without price:
 ![](images/missprice.png)
 
-### Underposting - Out of range:
-#### Negative input:
+### 2. Underposting - Out of range:
+#### i. Negative input:
 ![](images/neg.png)
-#### Out of range input:
+#### ii. Out of range input:
 ![](images/oor.png)
 
-### Overposting - non existing data:
-#### Discount property which does not exist:
+### 3. Overposting - non existing data:
+#### i. Discount property which does not exist:
 ![](images/discount.png)
 
 
